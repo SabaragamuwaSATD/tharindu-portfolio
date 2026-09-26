@@ -30,6 +30,10 @@ export default function Hero() {
         Learning: <span className="text-accent">{profile.status.learning}</span>
       </p>
 
+      <p className="mt-3 font-mono text-sm text-muted">
+        Building: <span className="text-accent">{profile.status.building}</span>
+      </p>
+
       <div className="mt-10 flex flex-wrap gap-4">
         <Button href="/#work">View my work</Button>
         <Button href={profile.links.cv} variant="outline" external>
