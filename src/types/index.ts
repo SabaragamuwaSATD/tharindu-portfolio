@@ -62,4 +62,9 @@ export interface Profile {
     linkedin: string;
     cv: string;
   };
+  about: {
+    paragraphs: string[];
+    outsideCode: string;
+  };
+  photo: string;
 }
